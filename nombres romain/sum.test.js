@@ -1,5 +1,9 @@
 const convertisseurNombreRomain = require('./sum');
 
+test('convert 1 to I', () => {
+    expect(convertisseurNombreRomain(1)).toEqual("I");
+});
+
 test('convert 2 to II', () => {
     expect(convertisseurNombreRomain(2)).toEqual("II");
 });
