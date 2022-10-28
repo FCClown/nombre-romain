@@ -31,9 +31,15 @@ test('convert 7 to VII', () => {
 test('convert 8 to VIII', () => {
     expect(convertisseurNombreRomain(8)).toEqual("VIII");
 });
+
 test('convert 9 to IX', () => {
     expect(convertisseurNombreRomain(9)).toEqual("IX");
 });
+
 test('convert 10 to X', () => {
     expect(convertisseurNombreRomain(10)).toEqual("X");
+});
+
+test('convert 11 to XI', () => {
+    expect(convertisseurNombreRomain(11)).toEqual("X1");
 });
