@@ -25,6 +25,16 @@ describe('romanNumerals', () => {
       [18, 'XVIII'],
       [19, 'XIX'],
       [20, 'XX'],
+      [21, 'XXI'],
+      [22, 'XXII'],
+      [23, 'XXIII'],
+      [24, 'XXIV'],
+      [25, 'XXV'],
+      [26, 'XXVI'],
+      [27, 'XXVII'],
+      [28, 'XXVIII'],
+      [29, 'XXIX'],
+      [30, 'XXX'],
     ])('converts %i to %s', (decimalNumber, romanNumeral) => {  // QUAND : On lui donne <decimalNumber>
       expect(numberToRomanNumeral(decimalNumber)).toEqual(romanNumeral); // ALORS : On obtient <romanNumeral>
     });
