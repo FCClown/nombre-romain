@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git  fetch
+git fetch
 
 git checkout dev
 
