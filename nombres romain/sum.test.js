@@ -13,6 +13,8 @@ describe('romanNumerals', () => {
       [6, 'VI'],
       [7, 'VII'],
       [8, 'VIII'],
+      [9, 'IX'],
+      [10, 'X'],
     ])('converts %i to %s', (decimalNumber, romanNumeral) => {  // QUAND : On lui donne <decimalNumber>
       expect(numberToRomanNumeral(decimalNumber)).toEqual(romanNumeral); // ALORS : On obtient <romanNumeral>
     });
