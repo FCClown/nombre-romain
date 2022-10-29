@@ -1,19 +1,6 @@
+// Gestion des caratères romain de 1 à 50
 const SYMBOL_CONFIGS = [
-    {
-      character: 'M',
-      value: 1000,
-      stepDownAmount: 100,
-    },
-    {
-      character: 'D',
-      value: 500,
-      stepDownAmount: 100,
-    },
-    {
-      character: 'C',
-      value: 100,
-      stepDownAmount: 10,
-    },
+
     {
       character: 'L',
       value: 50,
@@ -34,6 +21,7 @@ const SYMBOL_CONFIGS = [
       value: 1,
       stepDownAmount: 0,
     },
+
   ];
   
   function handleThresholdCase({number, config}) {
