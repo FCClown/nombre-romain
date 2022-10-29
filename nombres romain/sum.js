@@ -1,4 +1,4 @@
-// Gestion des caratères romain de 1 à 50
+// Gestion des caratères romain de 1 à 50 !
 const SYMBOL_CONFIGS = [
 
     {
